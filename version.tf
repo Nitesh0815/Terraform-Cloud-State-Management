@@ -13,12 +13,5 @@ terraform {
     }
   }
 
-  cloud {
-
-    organization = "learning-terraform-cloud-organization"
-
-    workspaces {
-      name = "This-API-HandsOn"
-    }
-  }
+  cloud {}
 }
